@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+        :root{
+            --white: #FFFFFF;
+            --black: #000000;
+            --dark: #232830;
+            --very-light-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --hospital-green: #ACD9B2;
+        }
+
+        body{
+            margin: 0;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        .contenedor{
+            display: grid;
+            place-items: center;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="contenedor">
+    <div class="logo-container">
+        <div class="logo">
+            <img class="img-logo" src="./src/logos/logo_bota_fora.svg" alt="Logo">
+        </div>
+    </div>
+    <div class="email-container">
+        <p class="titulo">Email has been sent!</p>
+        <p class="subtitulo">Please check your inbox for instructions on how to reset the password</p>
+        <img class="email-img" src="./src/iconos/email.svg" alt="Email">
+        <button class="boton-login">Login</button>
+        <p>Didn't receive the email? <a href="/" class="reenviar">Resend</a></p>
+    </div>
+</div>
+</body>
+</html>
