@@ -8,4 +8,4 @@ Proyecto del curso practivo de frontend developer de Platzi
 
 1. Creamos nuestro index.html y en estilos creamos la fuente de nuestros colores incluido los que trae por base CSS por si algúna libreria que traemos nos llega a cambiar este nombre, e importamos las tipografias.
 
-2.
+2. Agregamos las diferentes ventanas de la aplicación
