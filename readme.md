@@ -30,3 +30,5 @@ Proyecto del curso practivo de frontend developer de Platzi
         font-family: 'Quicksand', sans-serif;
         }
     </style>
+
+4. Para este ejercicio se crearon todas las ventanas con sus estilos incluidos, pero mejor practica es separarlos en un archivo css además de que ninguna página tiene funcionalidad, únicamente frontend y maqueteado
